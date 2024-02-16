@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Weather</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container"> 
+      <a class="navbar-brand d-flex  align-items-center  " href="#">
+       <div class="logo-img"> <img src="Images/logo.png" alt="Logo"  ></div>
+       <div class="ms-2"> 
+     <h1  >Weather</h1> 
+     <small class="d-block">tagline goes here</small> 
+     
+  </div>
+       
+        
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link  spical " aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">News</a>
+          <a class="nav-link" href="#">Live cameras</a>
+          <a class="nav-link" href="#">Photos </a>  
+           <a class="nav-link" href="#">Contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class=" ">
+    <div   class=" overflow-hidden  d-flex justify-content-center  container ">
+      <div class="  find-location w-100    ">
+
+        <div class="input-group ps-3  d-flex flex-nowrap justify-content-between">
+          <input type="text" class="" placeholder="Find your location" aria-label="Recipient's username" id="input-div" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary " type="button" id="button-addon2"  >Find</button>
+        </div>
+        </div>
+    </div>
+
+    
+
+
+
+  </div>
+<section class="home-info ">
+  <div class="container  ">
+    <div class="row row-cols-1 row-cols-md-3 g-0 ">
+      <div class="col">
+        <div class="card">
+          <div class="card-header ">
+            <div class="header-containten d-flex justify-content-between">
+              <span id="day">Tuesday</span>
+              <div class=""><span id="day-month"> </span> <span id="month"></span></div>
+            </div>
+  
+          </div>
+          <div class="card-body">
+            <div  id="city"> Cairo</div>
+            <div   class="Temperature text-white"><span id="temp1"></span> <sup>o</sup> C</div>
+            <img id="icon1" width="50px" height="50px" alt="">
+            <div id="temp2" class="Temperature-type">Partly cloudy</div>
+            <div class="wind mt-2"> 
+              <span"><img src="Images/icon-umberella.png" alt="">20%</span>
+              <span><img src="Images/icon-wind.png" alt="">18km/h</span>
+              <span><img src="Images/icon-compass.png" alt="">East</span>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col ">
+        <div class="card text-center mid-card">
+          <div class="card-header ">
+             <span id="day2">Wednesday</span>
+          </div>
+          <div class="card-body">
+          <div class="mt-4"><img id="icon2"  width= "50px" height="50px"></div>
+            <div  class=" text-white temp mt-4"> <span id="date2max"></span>  <sup>o</sup> C</div>
+            <div ><span id="date2min"></span> <sup>o</sup> C</div>
+            <div  id= "date2type"class="Temperature-type mt-4">Overcasty</div>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col ">
+        <div class="card text-center ">
+          <div class="card-header ">
+             <span id="day3">Wednesday</span>
+          </div>
+          <div class="card-body">
+          <div class="mt-4"><img id="icon3"  width= "50px" height="50px"></div>
+            <div  class=" text-white temp mt-4"><span id="date3max"></span> <sup>o</sup> C</div>
+            <div  ><span id="date3min" ></span><sup>o</sup> C</div>
+            <div  id="date3type" class="Temperature-type mt-4">Sunny</div>
+          </div>
+         
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</section>
+
+<footer class="overflow-hidden">
+  <div class="footer-containt container d-flex align-items-center">
+    <div class="footer-input w-75">
+      <div class="input-group ps-3   d-flex flex-nowrap justify-content-between">
+        <input type="text" class="" placeholder="Enter your email ..." aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary " type="button" id="button-addon2"  >Subscrib</button>
+      </div>
+    </div>
+    <div class="footer-links w-25 ps-4">
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+  </div>
+ <p class="container">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+  
+</footer>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

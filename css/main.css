@@ -1,0 +1,159 @@
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+small{
+   font-size: 10px;
+   color: #BFC1C8;
+}
+
+.navbar h1 {
+   margin: 0;
+   font-size: 1rem;
+   color: white;
+}
+nav{
+   background-color: #1E202B;
+   padding: 50px 0px !important;
+}
+.nav-link {
+   color: white;
+   padding: 0rem 2rem !important;
+   transition: all .5s;
+   border :solid 2px transparent;
+}
+
+.nav-link:hover{
+   color: #009AD8;
+   border :solid 2px #009AD8;
+}
+.navbar-nav .spical {
+   color: #009AD8 ;
+   border :solid 1px #009AD8 ;
+
+}
+.navbar-nav a{
+   border-radius: 2rem;
+   margin-right: 5px;
+}
+#home{
+   background-image: url(../Images/banner.png);
+   background-position: center center;
+   background-size: cover;
+   
+   height: 50vh;
+
+}
+.find-location {
+
+   /* border:  #1E202B  1px solid; */
+   margin: 5rem 0;
+   /* padding: 10px; */
+   background-color:#1E202B  ;
+   border-radius: 2rem;
+}
+.find-location input{
+   flex-grow: 1;
+   outline: none;
+   border: none;
+   background-color: transparent;
+   color: white;
+
+
+}
+.find-location button{
+   
+   padding: 10px 30px;
+
+   color: white;
+   background-color: #009AD8;
+   border-radius: 3rem !important;
+   margin: 3px 5px ;
+}
+.wind img{
+   width: 20px;
+   height: 20px;
+   margin-right: 2px;
+}
+.wind span{
+   margin-top: 10px;
+
+   margin-right: 10px;
+}
+.home-info{
+   background-color: #1E202B;
+   
+}
+.card {
+   background-color: #323544;
+   color: #BFC1C8;
+}
+.card-header{
+   background-color: #2D303D;
+}
+.Temperature{
+   font-size: 70px;
+   line-height:135px;
+}
+.row .card{
+   height: 56vh;
+}
+.Temperature-type{
+   color: #009AD8;
+}
+.mid-card{
+   background-color: #262936;
+}
+.mid-card .card-header{
+   background-color: #222530;
+}
+.home-info .container{
+  transform: translate(0,-100px);
+}
+.temp {
+   font-size: 24px;
+   line-height: 36px;
+}
+footer{
+   background-color: #262936;
+}
+.footer-input{
+   margin: 1rem 0;
+   background-color:#1E202B  ;
+   border-radius: 1rem;
+}
+footer .footer-input input{
+   flex-grow: 1;
+   outline: none;
+   border: none;
+   background-color: transparent;
+   color: white;
+
+
+}
+footer .footer-input button{
+   
+   padding: 10px 30px;
+
+   color: white;
+   background-color: #009AD8;
+   border-radius: 2rem !important;
+   margin: 2px 5px ;
+}
+.footer-links a{
+   
+   width: 40px;
+   height: 40px;
+   padding:15px;
+   /* border: solid 1px black; */
+   background-color: #1e202b;
+   border-radius: 50%;
+}
+.footer-containt{
+   margin-top: 20px;
+}
+footer p{
+   color: #BFC1C8;
+   font-size: 14px;
+   margin:0px 0px 14px;
+}
